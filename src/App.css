@@ -1,0 +1,73 @@
+body {
+  background-color: #758ab2; /* Grey background for the body */
+}
+
+.WalletConnect {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff; /* Light background for the inside */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-family: 'Arial', sans-serif;
+}
+
+h1, h3, h4 {
+  color: #333;
+}
+
+p, label {
+  margin: 10px 0;
+  color: #555;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+button, .WalletConnect > div > button {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover, .WalletConnect > div > button:hover {
+  background-color: #45a049;
+}
+
+div, .WalletConnect > div {
+  margin-top: 20px;
+}
+
+.WalletConnect > div {
+  border-top: 1px solid #000000;
+  padding-top: 15px;
+}
+
+.WalletConnect > div > label,
+.WalletConnect > div > button {
+  margin-top: 10px;
+}
+
+.WalletConnect > div > button {
+  background-color: #3498db;
+}
+
+.WalletConnect > div > button:hover {
+  background-color: #2980b9;
+}
